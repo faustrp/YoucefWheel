@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <DeviceInformation>
+    <Id>2064-009c</Id>
+    <HardwareVersion>2.0</HardwareVersion>
+    <FirmwareVersion>2.6</FirmwareVersion>
+    <SerialNumber>156</SerialNumber>
+  </DeviceInformation>
+  <Configuration>
+    <ClockSynchronizer>ThisDevice</ClockSynchronizer>
+    <ScreenBrightness>7</ScreenBrightness>
+  </Configuration>
+  <Emission>
+    <Region X="178" Y="521" Width="74" Height="74">R0</Region>
+    <Region X="833" Y="407" Width="80" Height="80">G1</Region>
+  </Emission>
+  <Excitation>
+    <TriggerPeriod Reg="62500">16.000 Hz</TriggerPeriod>
+    <Sequence>
+      <LED Index="0" Flag="4">L560</LED>
+      <LED Index="1" Flag="1">L415</LED>
+      <LED Index="2" Flag="0">None</LED>
+      <LED Index="3" Flag="0">None</LED>
+      <LED Index="4" Flag="0">None</LED>
+      <LED Index="5" Flag="0">None</LED>
+      <LED Index="6" Flag="0">None</LED>
+      <LED Index="7" Flag="0">None</LED>
+      <LED Index="8" Flag="0">None</LED>
+      <LED Index="9" Flag="0">None</LED>
+      <LED Index="10" Flag="0">None</LED>
+      <LED Index="11" Flag="0">None</LED>
+      <LED Index="12" Flag="0">None</LED>
+      <LED Index="13" Flag="0">None</LED>
+      <LED Index="14" Flag="0">None</LED>
+      <LED Index="15" Flag="0">None</LED>
+    </Sequence>
+    <Power>
+      <L415 Reg="10624">4.000%</L415>
+      <L470 Reg="11033">5.598%</L470>
+      <L560 Reg="14464">19.000%</L560>
+    </Power>
+  </Excitation>
+  <OptoStimulation>
+    <LaserWavelength>0</LaserWavelength>
+    <LaserAmplitude Reg="32760">49.989%</LaserAmplitude>
+    <StimPeriod Reg="100">10.000 Hz</StimPeriod>
+    <StimOn Reg="50">50 ms</StimOn>
+    <StimReps>10</StimReps>
+  </OptoStimulation>
+  <DigitalIOs>
+    <DigitalOutput0>Software</DigitalOutput0>
+    <Output1Routing>Both</Output1Routing>
+    <DigitalInput0>EventRising</DigitalInput0>
+    <DigitalInput1>EventRising</DigitalInput1>
+  </DigitalIOs>
+</Settings>
